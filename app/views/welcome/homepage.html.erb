@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Zahnarztpraxis</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/one-page-wonder.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+
+
+<script>
+
+$(document).ready(function(){
+  $('a[href*=#]').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+    && location.hostname == this.hostname) {
+      var $target = $(this.hash);
+      $target = $target.length && $target
+      || $('[name=' + this.hash.slice(1) +']');
+      if ($target.length) {
+        var targetOffset = $target.offset().top;
+        $('html,body')
+        .animate({scrollTop: targetOffset}, 250);
+       return false;
+      }
+    }
+  });
+});
+
+</script>
+
+
+
+</head>
+
+<body>
+    <a id="top"></a>
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href=#top class="navbar-brand" >Zahnarztpraxis Albert Kerner</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#about">Beschreibung</a>
+                    </li>
+                    <li>
+                        <a href="#services">Anfahrt</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Öffnungszeiten</a>
+                    </li>
+                    <li>
+                        <a href=#contact>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Tel: 0221 36 39 38</a>
+                    </li>
+                    <li>
+                        <a href=#services>&nbsp; &nbsp; &nbsp;Höninger Weg 206, 50969 Köln</a>
+                    </li>
+
+                    <li>
+                        <a></a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Full Width Image Header -->
+    <header class="header-image">
+        <div class="headline">
+            <div class="container">
+                <h1>Zahnarztpraxis</h1>
+                <h2>Albert Kerner</h2>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container">
+
+
+        <!-- First Featurette -->
+        <div class="featurette" id="about">
+
+        <hr class="featurette-divider">
+
+            <img  class="featurette-image img-circle img-responsive pull-right" src="assets/teeth1.jpg" alt="" >
+            <h2 class="featurette-heading">Sie wollen wieder selbstbewusst lächeln?
+                <span class="text-muted">Machen sie einen Termin aus.</span>
+            </h2>
+            <p class="lead">Lächeln macht sofort glücklich, unabhängig davon, ob wir wirklich einen Grund zur Freude haben. Das fand unter anderem der französische Psychologe Robert Soussignan in einer Studie im Jahr 2002 heraus. Wir helfen Ihnen eingesundes Lächeln auf die Lippen zu zaubern. Nur das wir nicht zaubern müssen.</p>
+        </div>
+
+
+
+   <!-- Second Featurette2 -->
+   <div class="featurette" id="services">
+
+
+	<hr class="featurette-divider">
+
+
+	<!-- <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500"> -->
+		<div  class="featurette-image img-circle img-responsive pull-left">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2515.7144247256942!2d6.941379000000001!3d50.910500000000006!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bf24609e9f83f1%3A0x52ef75cec0e882c5!2sZahnarztpraxis+Albert+Kerner!5e0!3m2!1sde!2sde!4v1427744522827" width="500" height="500" frameborder="0" style="border:0"></iframe>
+	</div>
+            <h2 class="featurette-heading">Nur ein paar Schritte von Ihnen entfernt.
+                <span class="text-muted">Ganz in Ihrer Nähe.</span>
+            </h2>
+            <p class="lead">Unsere Praxis am <span class="text-muted">Höninger Weg 206, 50969 Köln</span> ist leicht zu erreichen, da die <span class="text-muted">Bahnhaltestelle Gottesweg</span> keine 50m von unserer Haustüre entfernt ist. Der Routenplaner hilft Ihnen die Adresse im Handumdrehen zu finden.</p>
+        </div>
+
+        <hr class="featurette-divider">
+
+
+        <!-- Third Featurette -->
+        <div class="featurette" id="contact">
+		<img class="featurette-image img-circle img-responsive pull-right" src="assets/teeth2.jpg" alt="">
+	<div  class="featurette-image img-circle img-responsive pull-left">
+</div>
+            <h2 class="featurette-heading">Gerne begrüßen wir Sie in unserer Praxis.
+                <span class="text-muted"></span>
+            </h2>
+            <br>
+            <p class="lead">So lauten unsere Öffnungszeiten:</p>
+
+
+            <table border=2 width=50% cellspacing=5 cellpadding=8 cols=2>
+<tr><td align=center>Montag</td><td align=center>8.00 - 12.00 &nbsp;&nbsp;&nbsp;&nbsp;15.00 - 18.00</td>
+<tr><td align=center>Dienstag</td><td align=center>8.00 - 12.00 &nbsp;&nbsp;&nbsp;&nbsp;15.00 - 18.00</td>
+<tr><td align=center>Mittwoch</td><td align=center>8.00 - 12.00</td>
+<tr><td align=center>Donnerstag</td><td align=center>8.00 - 12.00 &nbsp;&nbsp;&nbsp;&nbsp;15.00 - 18.00</td>
+<tr><td align=center>Freitag</td><td align=center>8.00 - 12.00</td>
+
+</table>
+<br>
+<p class="lead">Zu diesen Zeiten sind wir unter <span class="text-muted">0221 36 39 38</span> zu erreichen.</p>
+        </div>
+
+        <hr class="featurette-divider">
+
+
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Albert Kerner 2015 &nbsp; &nbsp; &nbsp; Images &copy; sxc.hu</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+
+
+</body>
+
+</html>
